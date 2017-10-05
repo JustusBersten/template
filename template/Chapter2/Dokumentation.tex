@@ -1,0 +1,52 @@
+%!TEX root = ../main.tex
+
+\chapter{Gebrauchsanweisung \& Dokumentation}
+\label{chap:dokumentation}
+
+Diese \LaTeX-Vorlage dient der Erstellung von Bachelor- und Masterarbeiten. Sie erfüllt die Richtlinien und vorausgesetzten Anforderungen an wissenschaftliche Arbeiten. Geschrieben und kompiliert wurde diese Vorlage von Marius Theiß im Frühjahr 2016. Sie basiert auf der 2004 \LaTeX2$\epsilon$ Version von scrreprt.cls, der KOMA-Script Version 3 report Klasse. Weitere Informationen und eine generelle Dokumentation zum KOMA-Script sind auf \url{http://www.komascript.de/} verfügbar.
+
+
+Diese Datei ist zur Modifikation und Distribution freigegeben unter der \LaTeX-Project Public License Version 1.3c, oder jeder späteren Version. Die aktuelle Version ist zu finden unter \url{http://www.latex-project.org/lppl.txt}.
+
+Bei dieser Vorlage handelt es sich um die Version vom 06. Juni 2016 von Marius Theiß\footnote{Kontakt E-Mail: \href{mailto:marius.theiss@udo.edu}{marius.theiss@udo.edu}}.
+
+
+\section{Features}
+\label{sec:features}
+
+Diese Vorlage erfüllt die stilistischen Vorgaben an eine wissenschaftliche Bachelor- beziehungsweise Masterarbeit:
+\begin{enumerate}
+\item Zentrierte Seitenzahlen auf der Fußzeile jeder Seite
+\item Seitennummerierung für die Verzeichnisse römisch, ab dem Volltext wird arabisch nummeriert, wie erforderlich.
+\item Der Text ist als Blocksatz formatiert mit einer Serifenschrift in Schriftgröße 12pt
+\item Formatierte Titelseite, Inhalts- sowie Literaturverzeichnis
+\item Optional: Verzeichnisse für Abbildungen, Tabellen und ein Abkürzungs- und Symbolverzeichnis und Anhang
+\item Optimiert für DIN A4 mit 1.5pt Zeilenabstand
+\end{enumerate}
+
+
+\section{Klassenoptionen}
+\label{sec:optionen}
+
+Das Herz dieser Vorlage ist die Datei \texttt{header.tex}. Dort wird die KOMA-Klasse \texttt{scrreprt} initialisiert, alle nötigen Umgebungen definiert, Pakete eingebunden und wichtigen Einstellungen vorgenommen.
+
+Die Optionen für die Initialisierung der KOMA-Klasse \texttt{scrreprt} sollten nach Möglichkeit nicht verändert werden. Dennoch gibt es einige optionale Einstellungen, die bei Bedarf verändert werden können:
+
+\begin{symbollist}
+	\item[\texttt{chapterprefix}] Alle Kapitel welche mit {\verb \chapter{title} } initialisiert werden, beginnen mit dem Prefix \textit{Kapitel} und der zugehörigen Nummer.
+	\item[\texttt{numbers}] Bestimmt ob die Prefixe der Kapitel mit einem Punkt beendet werden sollen. \textit{noenddot} ist hier die Standardeinstellung.
+	\item[\texttt{parskip}] Paragraphen werden mit einer Leerzeile getrennt. Die Einstellung \textit{false} führt dazu, dass Paragraphen lediglich eingerückt werden.
+	\item[draft] Optional: Grafiken werden nur als schwarze Umrandungen dargestellt. Optimal geeignet zum Drucken einer Vorabversion.
+\end{symbollist}
+
+Im Rest der Datei \texttt{header.tex} werden die Pakete geladen und benötigte Umgebungen definiert. Die Datei ist vollständig (auf englisch) kommentiert und lässt Platz für weitere Pakete und eigene Definitionen.
+
+\section{Vorgehen}
+Wer mit dieser Vorlage arbeiten will, dem wird das folgende Vorgehen empfohlen:
+
+\begin{enumerate}
+\item Im Pfad \texttt{./Titlepage/} die Titelseite ausfüllen
+\item \texttt{header.tex} durchsehen, optionale Klassenoptionen auf Wunsch verändern. Weitere Pakete einbinden und Umgebungen definieren falls nötig.
+\item \texttt{main.tex} durcharbeiten. Sind die ersten zwei Schritte erledigt, spielt sich alles rund um die Arbeit in \texttt{main.tex} ab.
+\item Das Einbinden von Bildern findet ganz klassich mit { \verb \includegraphics{name} } statt. Die Bilder können in den eingestellten Standardpfad \texttt{./Pictures/} abgelegt werden und sind dann nur durch Einbinden des Dateinamens hinzuzufügen. Das Ausschreiben des Dateipfads ist damit redundant!
+\end{enumerate}

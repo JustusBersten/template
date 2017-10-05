@@ -1,0 +1,54 @@
+\input{header}
+%\includeonly{kapitel/methoden}
+
+
+\begin{document}
+% -------------------------------------------------------------------
+% Titelseite, Inhaltsverzeichnis, Abbildungsverzeichnis, usw.
+
+\include{kapitel/titelseite} % <- Hier sollten Name/Titel/usw. eingetragen werden!
+
+\pagenumbering{roman}
+\tableofcontents
+\listoffigures
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+%\listofalgorithms
+% ...
+\clearpage
+\pagenumbering{arabic}
+% -------------------------------------------------------------------
+
+% -------------------------------------------------------------------
+% Hauptteil
+\include{kapitel/einleitung}
+\include{kapitel/definition}
+\include{kapitel/msspp}
+\include{kapitel/methoden}
+\include{kapitel/algorithmus}
+\include{kapitel/ergebnisse}
+\include{kapitel/ausblick}
+
+% ... hier können weitere kapitel eingefügt werden!
+% -------------------------------------------------------------------
+
+% -------------------------------------------------------------------
+% Anhang
+%\appendix
+%\include{kapitel/anhang}
+% -------------------------------------------------------------------
+
+% -------------------------------------------------------------------
+% Literaturverzeichnis
+%\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+\bibliographystyle{unsrt}
+\bibliography{literatur/literatur}
+%\include{literatur/literatur}
+
+% -------------------------------------------------------------------
+
+% -------------------------------------------------------------------
+% Erklaerung (nicht n�tig f�r Seminararbeiten)
+%\include{kapitel/erklaerung}
+% -------------------------------------------------------------------
+
+\end{document}

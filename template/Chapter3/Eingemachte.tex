@@ -1,0 +1,177 @@
+%!TEX root = ../main.tex
+
+\chapter{Das Eingemachte}
+\label{chap:tipps}
+Dieses Kapitel zeigt einige Beispiele und soll auch als Nachschlagewerk oder FAQ für immer wiederkehrende Probleme bei der Verwendung von \LaTeX{} fungieren. Was hier folgt ist \LaTeX~Standardwerkzeug. Es gibt immer wieder Situationen, welche zu Problemen bei den Studierenden führen. Dem will dieses Kapitel Abhilfe schaffen.
+
+\section{Gliederung in Kapiteln: \textit{Sections}}
+Mit {\verb \section{title} } werden neue Unterkapitel eingefügt, welche auch im Inhaltsverzeichnis erscheinen. Auch fettgedruckt wie die Überschrift von {\verb \chapter{title} }.
+
+\subsection{Subsection}
+Eine noch feinere Unterteilung liefert {\verb \subsection{title} }. Auch diese hier wird wieder fettgedruckt und ins Inhaltsverzeichnis eingefügt.
+
+\subsubsection{Subsubsection}
+Noch kleiner wirds mit {\verb \subsubsection{title} }. Diese Art von Unterkapiteln ist grundsätzlich erlaubt, wird aber nicht nummeriert und erscheint insbesondere nicht im Inhaltsverzeichnis.
+
+\paragraph{Paragraph} Der Befehl {\verb \paragraph{title} } liefert eine noch feinere Unterteilung. Hier wird keine Leerzeile hinter der Überschrift eingefügt. Paragraphen sind kursiv, nicht nummeriert und erscheinen nicht im Inhaltsverzeichnis.
+
+\subparagraph{Subparagraph} Das kleinste aller Unterkapitel. Also wirklich klein. Auch hier: Keine Nummerierung, kein Inhaltsverzeichnis.
+
+\section{Mathematik}
+
+Jetzt wird gerechnet. Zum Start eine Gleichung:
+\begin{equation}
+\label{eq:differntialgleichung}
+u'(t) = f(t,u(t)) \quad \text{subject to} \quad u(0) = 0
+\end{equation}
+Man sieht, die Differentialgleichung ist zentriert und nummeriert. Viele weitere Beispiele liefert die Dokumentation des Pakets {\verb ntheorem }. Die Dokumentation\footnote{CTAN Link: \href{https://www.ctan.org/pkg/ntheorem}{Dokumentation \texttt{ntheorem}}} ist auf CTAN verfügbar. Im Folgenden kommen noch Beispiele für Formatierungen, bei denen oft Probleme auftreten.
+
+Falls eine Gleichung zu lang für eine Zeile sein sollte, verwendet man \texttt{multline}:
+\begin{multline}
+\label{eq:lang}
+	a +b+c+d+e+f+g+h+i+j+k+l+m+n+o\\ 
+	= p+q+r+s+t+u+v+w+x+y+z.
+\end{multline}
+Man sollte seine Formeln und Gleichungen stets mit Labeln versehen. So kann man diese bei Bedarf referenzieren, wie hier: Differentialgleichung~\eqref{eq:differntialgleichung} oder die lange Gleichung~\eqref{eq:lang}.
+
+Für mehrere Gleichungen in einer Umgebung verwendet man \texttt{align}:
+\begin{align}
+\label{eq:zweizeiler}
+	a_1 &= b_1 + c_1\\
+	a_2 &= b_2 + c_2.
+\end{align}
+Die \texttt{subequations}-Umgebung kann ebenfalls nützlich sein:
+\begin{subequations}
+	\label{eq:erde}
+	\begin{align}
+		\label{eq:himmel}
+		a_1 &= b_1 + c_1\\
+		\label{eq:hoelle}
+		a_2 &= b_2 + c_2.
+	\end{align}
+\end{subequations}
+Hier kann man mit den Labeln etwas tricksten und kommt so an die gesamte Gleichung~\eqref{eq:erde}, oder separat an die Erste~\eqref{eq:himmel} oder die Zweite~\eqref{eq:hoelle} ran. Ziemlich beeindruckend!
+
+Will man eine Referenznummer für eine mehrzeilige Gleichung verwendet man die \texttt{split}-Umgebung:
+\begin{equation}
+	\begin{split}
+		a &= b + c - d\\
+		 &\phantom{=} + e - f\\
+		 &= g + h\\
+		 &= i.
+	\end{split}
+\end{equation}
+Ein Thema, welches immer wieder auftaucht sind Funktionen mit Fallunterscheidungen. In \LaTeX~lässt sich das einfach mit \texttt{cases} lösen:
+\begin{equation}
+	U(c_1,c_2) = 
+	\begin{cases}
+		u(c_1) \quad \text{mit Wahrscheinlichkeit} \quad \omega\\
+		u(c_2) \quad \text{mit Wahrscheinlichkeit} \quad 1 - \omega.
+	\end{cases}
+\end{equation}
+Matrizen sind auch leicht gemacht:
+\begin{equation}
+	A = \begin{pmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{pmatrix}
+     = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}
+\end{equation}
+Für die langen vertikalen Linien, welche die Auswertung von Differentialgleichungen oder Integralen andeuten sollen muss man auch etwas tricksen. Aber machbar:
+\begin{equation}
+	a = \frac{\partial u}{\partial t}\bigg\lvert_{x=0}.
+\end{equation}
+Das letzte Beispiel ist ein Optimierungsproblem. Hier ein Standardproblem aus der Optimierung:
+\begin{equation}
+	\begin{aligned}
+		& \underset{x}{\text{minimize}}
+		& & f_0(x) \\
+		& \text{subject to}
+		& & f_i(x) \leq b_i, \; i = 1, \ldots, m.
+	\end{aligned}
+\end{equation}
+Und weil es so schön war, hier noch ein längeres mit abgekürzten Texten und mehr Nebenbedingungen:
+\begin{equation}
+	\label{eq:maximizationProb}
+	\begin{aligned}
+		& \text{max}
+		& & \gamma u(c_1) + (1 - \gamma) u(c_2) \\
+		& \text{s.t.} & &  x + y \leq 1 \\
+		& & &  \gamma c_1 \leq y \\
+		& & &  (1 - \gamma) c_2 \leq Rx. \\
+	\end{aligned}
+\end{equation}
+
+\section{Label und Referenzen}
+
+Das Verwenden von Labeln ist unerlässlich für eine gute Struktur und darüber hinaus auch sehr nützlich. So liefert {\verb Gleichung~\ref{eq:differntialgleichung} } die Ausgabe "Gleichung~\ref{eq:differntialgleichung}". Wenn man ein Gleichung lieber mit den üblichen Klammern referenzieren will benutzt man { \verb \eqref }. Das liefert dann Gleichung~\eqref{eq:differntialgleichung}. Durch einen Klick auf die Referenznummer in der PDF scrollt man nun automatisch zu der gewünschten Gleichung. Label können in \LaTeX~in so gut wie alle Umgebungen eingebaut werden. Auch dieses Kapitel wurde am Anfang mit einem Label versehen und das Referenzieren mit {\verb Kapitel~\ref{chap:tipps} } führt zu "Kapitel~\ref{chap:tipps}". Später kommen noch Beispiele für Abbildungen und Tabellen. Doch vorher widmen wir uns dem korrekten Zitieren per Bibtex.
+
+
+\section{Zitieren und Bibtex}
+
+Ebenfalls unerlässlich für sauberes, wissenschaftliches Arbeiten ist das richtige Zitieren. Diese Vorlage verwendet das Paket \texttt{natbib} und den \texttt{bibliographystyle} JASA. Bei JASA handelt es sich um eine Autor-Jahr-Zitierweise\footnote{Weiterführende Informationen: \href{https://de.wikipedia.org/wiki/Autor-Jahr-Zitierweise}{Autor-Jahr-Zitierweise (Wikipedia)}}. Der \texttt{bibliographystyle} JASA hat sich oft bewährt. Wessen Fakultät dennoch auf ein Literaturverzeichnis nach DIN Wert legt, der soll am Ende von \texttt{main.tex} den für sich richtigen \texttt{bibliographystyle} einstellen. Die entsprechenden \texttt{.bst} Dateien findet man auf CTAN.\footnote{Literaturverzeichnis nach DIN: \url{http://www.ctan.org/tex-archive//bibliography/bibtex/contrib/german/din1505}}
+
+Der Befehl {\verb \cite } ist das Brot und die Butter eines jeden Akademikers. Wer Lust hat schaut sich mal das Buch der Bücher über internationale Finanzmärkte~\citep{krugman2008international} oder liest den Artikel über das Problem der stabilen Heirat \citep{gale1962college}. Die Ausgabe wurde erstellt mit {\verb \citep }. Dieser Befehl ist Bestandteil des Paktes \texttt{natbib} und liefert die Ausgabe des Autor mit der Jahreszahl in Klammern. Für das Angeben von Quellen ohne Klammern empfiehlt sich {\verb \citet }. \texttt{Natbib} kommt noch mit weiteren Befehlen. So lassen sich auch die Autoren ausgeben (\citeauthor{akerlof1995market}), eine Quellenangaben können mit Seitenangabe gemacht werden (\citet[Seite 137]{akerlof1995market}) oder, wenn nur das Datum der Veröffentlichung benötigt wird, geht das auch (\citeyear{akerlof1995market}). Wie das ganze funktioniert und was es sonst noch für Befehle gibt schaut man am besten in der Dokumentation\footnote{\href{http://ftp.math.purdue.edu/mirrors/ctan.org/macros/latex/contrib/natbib/natnotes.pdf}{Natbib Reference Sheet}} von \texttt{natbib} nach. 
+
+Wer sich noch nicht an bibtex gewagt hat, soll keine falsche Scheu haben und sich in \texttt{/Bibliography/references.bib} inspirieren lassen. Für die Verwendung von bibtex gibt es zahlreiche Anleitungen (etwa auf \url{http://www.bibtex.org/de/}).
+
+\section{Verhalten Inhaltsverzeichnis}
+
+An dieser Stelle macht es Sinn, sich noch einmal etwas genauer mit dem Inhaltsverzeichnis zu beschäftigen. Die Einträge werden von \LaTeX{} automatisch erstellt, sobald man ein neues Kapitel oder neuen Abschnitt mit den entsprechenden Befehlen hinzufügt. Die Einträge funktionieren genauso, wie die schon angesprochenen Label: Durch einen Klick auf einen Eintragt sollte der PDF-Reader zu der richtigen Stelle springen. Dieses Verhalten trifft nicht nur auf das normale Inhaltsverzeichnis zu, sondern funktioniert auch mit den anderen Verzeichnissen wie dem Abbildungs- und Tabellenverzeichnis.
+
+\section{Abbildungen}
+
+Bei dem wissenschaftlichen Schreiben gehört die Legende immer unter das Bild. Der Text der Bildunterschrift hat einen einzeiligen Zeilenabstand und beginnt mit dem Wort \textit{Abbildung}. Die Standardeinstellung gibt hier die Schreibweise in Großbuchstaben vor. Bei Bedarf kann die Einstellung in \texttt{header.tex} unter dem Stichpunkt \texttt{CAPTION SETUP} geändert werden. Ein Beispiel für eine eingebundene Grafik ist Abbildung~\ref{fig:tudo}. Man beachte im Source-Code das forcierte Leerzeichen { \verb "~" }. Die Tilde bewirkt, dass die Wörter \textit{Abbildung} und die Nummer der Referenz stets zusammen gehalten werden und nicht durch eine Umgebung oder einen Zeilenumbruch getrennt werden können.
+
+%%%%%%%%%%%%%%%%%%%
+\begin{figure}[tbp]
+\begin{center}
+\includegraphics[width=10cm]{tudologo}
+\end{center}
+\caption[Kurze Beschreibung für das Abbildungsverzeichnis]{Die lange Version der Bildbeschreibung für die Abbildung im Text. Die Legende gehört immer UNTER die Abbildung. Dem Umfang der langen Beschreibung sind keine Grenzen gesetzt. Sie kann sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr lang sein.}
+\label{fig:tudo}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%
+
+Abbildungen (und später Tabellen) werden von \LaTeX~in einer Float-Umgebung kompiliert. Float-Umgebungen sind Objekte bei denen \LaTeX~entscheidet, wie es diese am besten platziert. \LaTeX~leistet dabei in den meisten Fällen gute Arbeit. Es gibt aber auch Mittel und Wege, wie man \LaTeX~ein bisschen unter die Arme greifen kann, sollte eine Abbildung mal nicht wie gewünscht eingebunden werden. Dazu müssen die Argumente bei { \verb \begin{figure}[tbp] } abgeändert werden. Die möglichen Optionen für in die eckigen Klammern sind:
+\begin{itemize}
+\item[t] Erlaubt die Platzierung am Anfang einer Seite
+\item[b] Erlaubt die Platzierung am Ende einer Seite
+\item[h] Erlaubt eine Platzierung \textit{hier}. Oft verwendet um eine Abbildung in der Mitte einer Seite anzeigen zu können. \LaTeX~versucht die Abbildung nahe dem Text zu platzieren, wo der Befehl auftaucht.
+\item[p] Erlaubt die Platzierung auf einer gesonderten \textit{float-Seite}.
+\item[!] Das Setzen eines Ausrufezeichens hinter einer Option führt zum Erzwingen der genannten Platzierung. Das Ausrufezeichen sollte so oft es geht vermieden werden, da es dazu führen kann, dass Abbildungen vor Kapitelüberschriften oder in Fußzeilen platziert werden!
+\end{itemize}
+
+Man beachte, dass ein Setzen der Optionen \LaTeX~lediglich \textit{erlaubt} die Grafik wie eingestellt zu platzieren. Die Standardeinstellung ist [tbp], welche auch für ein Dokument dieser Art gut geeignet ist. Dennoch kann es ein pure Qual sein, die richtige Platzierung für eine Abbildung oder Tabelle zu finden. Die Erfahrung zeigt jedoch, dass man mit ein bisschen fummeln und erzwingen (per !) der Optionen in den eckigen Klammern zu dem gewünschten Ergebnis kommt.
+
+Auch hier lohnt sich nochmal der Blick in den Source-Code: Die Reihenfolge der von \texttt{includegraphics}, \texttt{caption} und \texttt{label} spielt eine wichtige Rolle. Ein Vertauschen kann führt oft zu Problemen, sei es beim Referenzieren oder dass die Abbildung nicht im Abbildungsverzeichnis auftaucht. Bei dem Befehl { \verb \caption } ist zu beachten, dass der Titel, welcher im Abbildungsverzeichnis erscheint in die eckigen Klammern gehört und auch eine gewisse Länge nicht überschreitet.
+
+Ein technisches Detail zum Abschluss dieses Abschnitts. Diese Vorlage ist für das moderne \texttt{pdflatex} optimiert. Das heißt { \verb \includegraphics } sucht zu erst nach \texttt{PDF}s, \texttt{JPEG}s und \texttt{PNG} anstelle von den \LaTeX-üblichen \texttt{PS} oder \texttt{EPS} Formaten. Bei der Verwendung dieser Vorlage wird empfohlen seine Abbildungen im \texttt{PDF}-Format einzubinden. Diese skalieren sehr viel besser und schöner. Der Standardpfad in den die Dateien abgelegt werden sollten ist \texttt{Pictures}. Dieser kann bei Bedarf in \texttt{header.tex} geändert werden. Wer seine Abbildungen in \texttt{PDF}-Format umwandeln will, dem wird das freie Programm Inkscape\footnote{Zu finden auf \url{https://inkscape.org/de/}.} nahegelegt. Inkscape ist open-source und verträglich mit allen gängigen Betriebssystemen wie Windows, Mac und Linux.
+
+\section{Tabellen}
+Dieser Abschnitt soll ein Beispiel zeigen wie diese Vorlage mit Tabellen umgeht, siehe dazu Tabelle~\ref{tab:bsp}.
+%%%%%%%%%%%%%%%%%
+\begin{table}[t]
+\caption[Kurze Tabellenbeschreibung für das Tabellenverzeichnis]{Lange Beschreibung der Tabelle wird in der im Text üblichen Schriftgröße dargestellt. Vorangestellt das Wort Tabelle in Großbuchstaben und die zugehörige Referenznummer. Die Beschreibung gehört IMMER über die Tabelle! Quelle: Dokumentation des \LaTeX-Pakets \texttt{booktabs}.}
+	\label{tab:bsp}
+	\begin{center}
+	\begin{tabular}{@{}llr@{}} \toprule
+			\multicolumn{2}{c}{Artikel} \\ \cmidrule(r){1-2}
+			Tier & Beschreibung & Preis (\$)\\ \midrule
+			Mücke & pro Gramm & 13.65 \\
+			& pro Stück & 0.01 \\
+			Gnu & ausgestopft & 92.50 \\
+			Emu & ausgestopft & 33.33 \\
+			Gürteltier & gefroren & 8.99 \\ \bottomrule
+	\end{tabular}
+	\end{center}
+\end{table}
+%%%%%%%%%%%%%%%%%
+Beim Verwenden der Option [b] bei { \verb \begin{table}[b] } kann es passieren, dass die Float-Umgebung unter die Fußnoten rückt. Sehr hässlich! Tabellen verhalten sich exakt wie Abbildungen. Der Unterschied ist das Wort \textsc{Tabelle} statt \textsc{Abbildung} am Anfang der Beschreibung und, dass Tabellen in einem gesonderten Tabellenverzeichnis erscheinen. Auch dieses Verzeichnis verhält sich wieder identisch zu den anderen. Ein Klick auf den jeweiligen Eintrag springt direkt zu dem gesetzten Label.
+
+Für die Darstellung von Tabellen gibt es eine handvoll nützlicher Hinweise. Für das Wohle aller - Autor und Leser gleichermaßen - sind die zwei wichtigsten Regeln einzuhalten:
+\begin{enumerate}
+	\item Vertikale Linien sind zu vermeiden.
+	\item Doppelte Linien sind zu vermeiden.
+\end{enumerate}
+
+
+\section{Fußnoten}
+Fußnoten sind grundsätzlich erlaubt.\footnote{Man sollte jedoch immer versuchen die Informationen in den Text einzugliedern, denn ständiges hin-und-her springen zwischen Fließtext und der Fußzeile strengt auf Dauer an.} Fußnoten werden in die Fußzeile zugehörigen Fließtextseite geschrieben und arabisch durchnummeriert. Fußnoten sollten grundsätzlich verwendet werden um zusätzliche Anmerkung zum Fließtext zu liefern. Das bedeutet in die Fußnoten soll ausdrücklich kein Text mit essentiellen Informationen ausgelagert werden. Der Befehl { \verb \footnote } ist stets hinter dem Punkt des Bezugssatzes gesetzt werden. Ein hübsches Feature: Die kleinen Zahlen verhalten sich genau wie die Referenznummern und können benutzt werden um zu den jeweiligen Einträgen zu springen.

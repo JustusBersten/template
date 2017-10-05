@@ -1,0 +1,85 @@
+%==============================================================================
+%-----------------------------------------------------------------------------%
+% LaTeX Template for BA or MA theses 
+%
+% Date: June 2016
+% Author: Marius Theiss
+% Contact: marius.theiss@udo.edu
+% 
+%-----------------------------------------------------------------------------%
+%==============================================================================
+
+
+%==============================================================================
+%-----------------------------------------------------------------------------%
+% SETUP -- package options, language settings and style of theorem environment
+%-----------------------------------------------------------------------------%
+\input{header}
+%==============================================================================
+
+
+
+\begin{document}
+\pagenumbering{Roman}
+%-----------------------------------------------------------------------------%
+% TITLE PAGE -- insert Name/Title/Matriculation Number/etc. 
+%-----------------------------------------------------------------------------%
+\include{./Titlepage/titlepage}
+
+
+%-----------------------------------------------------------------------------%
+% ABSTRACT -- comment out if you do not add an abstract 
+%-----------------------------------------------------------------------------%
+\include{./Abstract/abstract}
+
+
+%-----------------------------------------------------------------------------%
+% FRONTMATTER -- ToC is required, LoT and LoF are required if you have any
+% tables or figures, respectively.
+%-----------------------------------------------------------------------------%
+\tableofcontents
+\listoffigures
+\listoftables
+\include{./Abbreviations/listofabbr}
+\clearpage
+\pagenumbering{arabic}
+
+
+%==============================================================================
+%-----------------------------------------------------------------------------%
+%
+% MAIN BODY OF PAPER
+%
+%-----------------------------------------------------------------------------%
+\include{./Chapter1/Einleitung} % A regular chapter starts with \chapter{title}
+\include{./Chapter2/Dokumentation} 
+\include{./Chapter3/Eingemachte}
+\include{./Chapter4/LoremIpsum}
+\include{./Chapter5/Kapitel5} % Your are free to add more chapters :)
+% you should add %!TEX root = ../main.tex (with %) at the start of every file!
+%==============================================================================
+
+
+%-----------------------------------------------------------------------------%
+% APPENDICES -- OPTIONAL. These are just chapters enumerated by Appendix A,
+% Appendix B, Appendix C...
+%-----------------------------------------------------------------------------%
+\appendix
+\include{./Appendix1/appendix1} % starts with \chapter{title}
+
+
+%-----------------------------------------------------------------------------%
+% BIBLIOGRAPHY -- uncomment \nocite{*} to include items in 'mybib.bib' file
+% that aren't cited in the text.  Change the style to match your
+% faculty's standards. Of course, if your bibliography file isn't called
+% 'references.bib' you might want to change that here too :)
+%-----------------------------------------------------------------------------%
+% \nocite{*} % Uncomment to add EVERYTHING to your bibliography
+\bibliographystyle{./Bibliography/jasa} % Load Bibliography style jasa
+\normalbaselines
+\bibliography{./Bibliography/references}
+
+
+%-----------------------------------------------------------------------------
+% You're done :)
+\end{document}

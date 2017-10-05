@@ -1,0 +1,146 @@
+\documentclass[12pt,paper=a4,numbers=noenddot,toc=bibliography,toc=listof,chapterprefix,parskip=true]{scrreprt}
+%-----------------------------------------------------------------------------%
+% Default options: 
+%	*	Optimized for DIN A4 output with font size 12. toc=bibliography adds 
+%		the bibliography as a not numbered entry to the Table of Contents.
+%		chapterprefix will print "Chapter #" on top of the page. parskip=true
+%		will add one line vertical space between paragraphs. See the
+%		KOMA-Script documentation for more options.
+%
+% Other useful options:
+%	*	draft	--	don't actually include images, print a black bar on 
+%					overful hboxes.
+%	*	
+%
+%-----------------------------------------------------------------------------%
+
+
+% Useful packages for academic writing:
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{stmaryrd}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{color}
+\usepackage{bm}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{mathabx}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{pbox}
+%\usepackage{cite}	% Not recommended: Can lead to break of hyperlink cites
+					% Only use this if you want your bibliography to sort
+					% entries by order-of-use.
+
+% Personal commands and abbreviations:
+%Define and personal commands here
+
+
+%Graphics Path to find your pictures:
+\graphicspath{{./Pictures/}}
+
+
+%-----------------------------------------------------------------------------%
+% LANGUAGE: Define preferred language (Default: German). 
+%-----------------------------------------------------------------------------%
+\usepackage[utf8]{inputenc}
+\usepackage[TS1,T1]{fontenc}
+\usepackage{lmodern,textcomp}
+\renewcommand\abstractname{Abstract}
+%Change language settings here:
+\usepackage[english,ngerman]{babel} % Sets language to German (Default)
+ \shorthandoff{""}
+%\usepackage[ngerman, english]{babel} % Sets language to English
+
+
+%-----------------------------------------------------------------------------%
+% CAPTION: Define preferred caption style. 
+%-----------------------------------------------------------------------------%
+\usepackage[format=plain,labelfont=sc]{caption} 
+%-----------------------------------------------------------------------------%
+
+
+%-----------------------------------------------------------------------------%
+% HYPERREF: plain black hypertext references for ref's and cite's.
+%-----------------------------------------------------------------------------%
+\usepackage[pdftex, pdfusetitle, plainpages=false,
+			bookmarks, bookmarksnumbered,
+			colorlinks, linkcolor=black, citecolor=black,
+		    filecolor=black, urlcolor=black]{hyperref}
+%-----------------------------------------------------------------------------%
+
+
+%-----------------------------------------------------------------------------%
+% PAGESTYLE: Define Formatting of page headers & footers and sets 1.5 spacing. 
+%-----------------------------------------------------------------------------%
+\usepackage{scrpage2}
+\usepackage[onehalfspacing]{setspace}
+\recalctypearea
+\pagestyle{scrheadings}
+\automark[section]{chapter}
+\addtokomafont{sectioning}{\rmfamily}
+
+\addtokomafont{paragraph}{\itshape} % paragraph italics
+\addtokomafont{subparagraph}{\itshape}
+%-----------------------------------------------------------------------------%
+
+
+%-----------------------------------------------------------------------------%
+% THEOREM: Define theorem style and formats. 
+%-----------------------------------------------------------------------------%
+%theorem environment for german language settings (default)
+\usepackage{ntheorem}
+\theoremstyle{break}
+\theoremheaderfont{\sffamily\bfseries}
+\theorembodyfont{\upshape}
+\theoremsymbol{}
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{satz}[definition]{Satz}
+\newtheorem{resultat}[definition]{Resultat}
+\newtheorem{lemma}[definition]{Lemma}
+\newtheorem{folgerung}[definition]{Folgerung}
+\newtheorem{korollar}[definition]{Korollar}
+\theorembodyfont{\rmfamily}
+\newtheorem{bemerkung}[definition]{Bemerkung}
+\newtheorem{beispiel}[definition]{Beispiel}
+% style of proof environment
+\theoremstyle{nonumberplain}
+\theoremsymbol{\ensuremath{\Box}}
+\newtheorem{beweis}{Beweis:}
+
+
+%%Uncomment for english language settings
+%\usepackage{amsthm}
+%\newtheorem{theorem}{Theorem}%[section]
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{proposition}[theorem]{Proposition}
+%\newtheorem{corollary}[theorem]{Corollary}
+%\newtheorem{result}[theorem]{Result}
+%-----------------------------------------------------------------------------%
+
+
+
+%==============================================================================
+% DO NOT CHANGE ANYTHING BEYOND THIS POINT
+%-----------------------------------------------------------------------------%
+% DEVELOPER: Necessary definitions and packages for debugging
+%-----------------------------------------------------------------------------%
+\usepackage{scrhack} % Fix packages only partial compatible with KOMA-script
+% New environment for list of symbols
+\newenvironment{symbollist}
+{%
+\normalbaselines
+\begin{list}{ }{%
+	\addtolength{\topsep}{5.0pt}
+	\addtolength{\itemsep}{5.0pt}
+	\setlength{\labelwidth}{0.24\textwidth}
+	\setlength{\labelsep}{2em}
+	\setlength{\parsep}{0pt}
+	\setlength{\leftmargin}{\labelwidth}
+	\setlength{\rightmargin}{0pt}
+	}
+}
+{ \end{list} } 

@@ -1,0 +1,1144 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"save",
+				"saveLine\tstatement"
+			],
+			[
+				"savel",
+				"saveLogLine\tstatement"
+			],
+			[
+				"log",
+				"logFile\tstatement"
+			],
+			[
+				"saveL",
+				"saveLogLine\tstatement"
+			],
+			[
+				"time",
+				"timestamp\tstatement"
+			],
+			[
+				"sector",
+				"sector_tickers\tstatement"
+			],
+			[
+				"write",
+				"writeDataToFile\tfunction"
+			],
+			[
+				"html",
+				"html_source\tstatement"
+			],
+			[
+				"url",
+				"urllib2\tmodule"
+			],
+			[
+				"h",
+				"html_source"
+			],
+			[
+				"multi",
+				"multiple_profits\tglobalstmt"
+			],
+			[
+				"multip",
+				"multiple_busts\tglobalstmt"
+			],
+			[
+				"mul",
+				"multiple_profits\tglobalstmt"
+			],
+			[
+				"muli",
+				"multiple_busts\tglobalstmt"
+			],
+			[
+				"simple",
+				"simple_profits\tglobalstmt"
+			],
+			[
+				"dobler",
+				"doubler_busts\tstatement"
+			],
+			[
+				"wager",
+				"wagerCount\tstatement"
+			],
+			[
+				"wag",
+				"wagerSize\tstatement"
+			],
+			[
+				"broke",
+				"broke_count\tstatement"
+			],
+			[
+				"double",
+				"doubler_bettor\tfunction"
+			],
+			[
+				"previ",
+				"previousWagerAmount\tstatement"
+			],
+			[
+				"prev",
+				"previousWagerAmount\tstatement"
+			],
+			[
+				"previous",
+				"previousWager\tstatement"
+			],
+			[
+				"pre",
+				"previousWagerAmount\tstatement"
+			],
+			[
+				"previousWager",
+				"previousWagerAmount\tstatement"
+			],
+			[
+				"roll",
+				"rollDice\tfunction"
+			],
+			[
+				"inde",
+				"indexes300\tstatement"
+			],
+			[
+				"ley",
+				"leybequeRibsCost\tstatement"
+			],
+			[
+				"mag",
+				"hungryMagister"
+			],
+			[
+				"head",
+				"head375\tstatement"
+			],
+			[
+				"food",
+				"food375\tstatement"
+			],
+			[
+				"fish",
+				"fishPlateShort"
+			],
+			[
+				"in",
+				"indexes375\tstatement"
+			],
+			[
+				"koi",
+				"koiScentedStormrayCost\tstatement"
+			],
+			[
+				"surf",
+				"surfAndTurfCost\tstatement"
+			],
+			[
+				"SSA",
+				"SSaTPrice\tstatement"
+			],
+			[
+				"sura",
+				"surfAndTurf\tfunction"
+			],
+			[
+				"price",
+				"pricePerItem"
+			],
+			[
+				"batch",
+				"batchSize〔variable〕"
+			],
+			[
+				"craf",
+				"craftingCosts〔variable〕"
+			],
+			[
+				"ba",
+				"batchSize〔variable〕"
+			],
+			[
+				"10",
+				"10000.00"
+			],
+			[
+				"get",
+				"getJsonFromId〔function〕"
+			],
+			[
+				"pretty",
+				"prettify\tfunction"
+			],
+			[
+				"poly",
+				"polyedr"
+			],
+			[
+				"Beweis",
+				"Beweisidee"
+			],
+			[
+				"Op",
+				"Optimalitätskriterium"
+			],
+			[
+				"matchDates",
+				"matchDatesDone"
+			],
+			[
+				"erä",
+				"erwähnt"
+			],
+			[
+				"format",
+				"formatOdds\tfunction"
+			],
+			[
+				"Q",
+				"QUOTE_MINIMAL\tinstance"
+			],
+			[
+				"unicode",
+				"unicodecsv\tmodule"
+			],
+			[
+				"incl",
+				"\\includegraphics{name}\tlatex-document"
+			],
+			[
+				"inc",
+				"\\includegraphics{name}\tlatex-document"
+			],
+			[
+				"textt",
+				"\\texttt{text}\tlatex-document"
+			],
+			[
+				"includ",
+				"\\includegraphics[options]{name}\tlatex-document"
+			],
+			[
+				"foot",
+				"\\footnote\ttex"
+			],
+			[
+				"subp",
+				"\\subparagraph{title}\tlatex-document"
+			],
+			[
+				"paragraph",
+				"\\paragraph{title}\tlatex-document"
+			],
+			[
+				"subsub",
+				"\\subsubsection{title}\tlatex-document"
+			],
+			[
+				"item",
+				"\\item[label]\tlatex-document"
+			],
+			[
+				"begin",
+				"\\begin{}\tlatex-document"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Marius/Dropbox/gurl.txt",
+			"settings":
+			{
+				"buffer_size": 528,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Marius/Dropbox/uni/MAO/kontakt.txt",
+			"settings":
+			{
+				"buffer_size": 465,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Marius/Dropbox/uni/MAO/Fragen.txt",
+			"settings":
+			{
+				"buffer_size": 711,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "Fragen MAO:"
+			}
+		},
+		{
+			"file": "/C/Users/Marius/Desktop/AA theory.mdown",
+			"settings":
+			{
+				"buffer_size": 2232,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "Theory: I think a bettor will have a valuation of"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "anaconda error",
+		"selected_items":
+		[
+			[
+				"anaconda error",
+				"Anaconda: Show error list"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"codein",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"anaconda",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"LatexToo",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"LatexT",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Build with",
+				"Build With: Python"
+			],
+			[
+				"latex",
+				"LaTeXTools: Build cache for LaTeX packages"
+			],
+			[
+				"Citer",
+				"Citer: Show All"
+			],
+			[
+				"citer",
+				"Citer: Search"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"Key ",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"snippet",
+				"Snippet: Matrix"
+			],
+			[
+				"LatexTools",
+				"LaTexTools: Delete temporary files"
+			],
+			[
+				"set Syntax:Latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"Latexing",
+				"LaTeXing: Check System"
+			],
+			[
+				"package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"late",
+				"Set Syntax: LaTeX"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Marius/Dropbox/python/timetesting.py",
+		"/C/Users/Marius/Dropbox/python/option_crawler/options.py",
+		"/C/Users/Marius/Dropbox/python/option_crawler/options_test.py",
+		"/C/Users/Marius/Dropbox/python/isin_crawler/v2/crawler_v2.py",
+		"/C/Users/Marius/Dropbox/uni/Hiwi/Johannes_Rohstoffe_02/Strom Januar 16/README.txt",
+		"/C/Users/Marius/Dropbox/abgehen/Mitglieder.mdown",
+		"/C/Users/Marius/Dropbox/python/sp500tickers.py",
+		"/C/Users/Marius/Dropbox/python/isin_crawler/v2/log.txt",
+		"/C/Users/Marius/Dropbox/abgehen/abgehen74.mdown",
+		"/C/Users/Marius/Dropbox/python/isin_crawler/crawler.py",
+		"/C/Users/Marius/Dropbox/python/isin_crawler/log.txt",
+		"/C/Users/Marius/Dropbox/python/sp500.py",
+		"/C/Users/Marius/Dropbox/python/yahoofinance.py",
+		"/C/Users/Marius/Dropbox/python/csvex.py",
+		"/C/Users/Marius/Dropbox/python/dates.py",
+		"/C/Users/Marius/Dropbox/python/monteCarloPlot.py",
+		"/C/Users/Marius/Dropbox/python/montecarlooptionpricing.py",
+		"/C/Users/Marius/Dropbox/python/teststring.py",
+		"/C/Users/Marius/Dropbox/python/hello.py",
+		"/C/Users/Marius/Dropbox/python/table.py",
+		"/C/Users/Marius/Dropbox/python/montecarlo1.py",
+		"/C/Users/Marius/Dropbox/python/tipico2.py",
+		"/C/Users/Marius/Dropbox/python/crawler.py",
+		"/C/Users/Marius/Dropbox/python/cspp_isins_20161123.csv",
+		"/C/Users/Marius/Dropbox/python/cspp_isins.csv",
+		"/C/Users/Marius/Dropbox/python/monteCarloLiberal.csv",
+		"/C/Users/Marius/Dropbox/python/wow/underminejournal.py",
+		"/C/Users/Marius/Dropbox/python/bwin.py",
+		"/C/Users/Marius/Dropbox/python/tipico.py",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Marius/Dropbox/wunschliste.txt",
+		"/C/Users/Marius/Dropbox/MJT/Buch/annika.txt",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Marius/Dropbox/blizz.txt",
+		"/C/Users/Marius/Dropbox/python/wow/test.py",
+		"/C/Users/Marius/Dropbox/uni/Hiwi/Fallstudien Seminar/benotung.txt",
+		"/C/Users/Marius/Dropbox/uni/Hiwi/vlad/master thesis of jianzhe chen/notes on Chen.txt",
+		"/C/Users/Marius/Dropbox/subl addons.txt",
+		"/C/Users/Marius/Dropbox/uni/MAO/kontakt.txt",
+		"/C/Users/Marius/Dropbox/pc.txt",
+		"/C/Users/Marius/Dropbox/MJT/Buch/Arme Singles.mdown",
+		"/C/Users/Marius/Dropbox/MJT/Buch/kristina2.mdown",
+		"/C/Users/Marius/Dropbox/MJT/cfg/phecksbersten.txt",
+		"/C/Users/Marius/Dropbox/MJT/cfg/acc.txt",
+		"/C/Users/Marius/Dropbox/MJT/smile again/to do.txt",
+		"/C/Users/Marius/Dropbox/MJT/hobbies.txt",
+		"/C/Users/Marius/Dropbox/MJT/Buch/truth or dare.txt",
+		"/C/Users/Marius/Dropbox/MJT/Buch/best would you rather.txt",
+		"/C/Users/Marius/Dropbox/uni/AKGO/emailfragen.txt",
+		"/C/Users/Marius/Dropbox/python/underminejournal.py",
+		"/C/Users/Marius/Dropbox/python/wow/legion.py",
+		"/C/Users/Marius/Dropbox/uni/AKGO/Fragen.txt",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Users/Marius/Dropbox/uni/Masterarbeit/newLit Vlad 15062016/Q.txt",
+		"/C/Users/Marius/Dropbox/uni/Masterarbeit/20062016/Notes.txt",
+		"/C/Users/Marius/Dropbox/wisdom.txt",
+		"/C/Users/Marius/Dropbox/asdf.txt",
+		"/C/Users/Marius/Dropbox/R/estimator/DAT_MT_EURUSD_M1_201605.txt",
+		"/C/Users/Marius/Dropbox/uni/Hiwi/Fallstudien Seminar/Abgaben/Forschungsseminar SS2016/Teilnehmer.txt",
+		"/C/Users/Marius/Dropbox/uni/Masterarbeit/newLit Vlad 15062016/Q2.txt",
+		"/D/Warez/DRM Postet - Microsoft Office 2013 GERMAN VL PRO P/fky-office13-sp1-x64-pro-plus-oktober15.nfo.txt",
+		"/D/Warez/DRM Postet - 6w545 01 Microsoft Office 2016 Pro Pl/00 - JBinUp.url.txt",
+		"/D/Warez/DRM Postet - 6w545 01 Microsoft Office 2016 Pro Pl/~ DRM ~ Postet -.txt",
+		"/C/Users/Marius/Dropbox/python/matches.csv",
+		"/C/Users/Marius/Dropbox/nils/anmerkungen.txt",
+		"/C/Users/Marius/Dropbox/python/mydata.csv",
+		"/C/Users/Marius/Dropbox/template/template/main.tex",
+		"/C/Users/Marius/Dropbox/template/template/Chapter2/Dokumentation.tex",
+		"/C/Users/Marius/Dropbox/template/template/Chapter5/Kapitel5.tex",
+		"/C/Users/Marius/Dropbox/template/template/header.tex",
+		"/C/Users/Marius/Dropbox/template/template_latex_duke_university_dissertation/Chapter3/chRegularLook.tex",
+		"/C/Users/Marius/Dropbox/template/template/Chapter4/LoremIpsum.tex",
+		"/C/Users/Marius/Dropbox/template/template/Chapter3/Eingemachte.tex",
+		"/C/Users/Marius/Downloads/jasa.bst",
+		"/C/Users/Marius/Dropbox/tipico.py",
+		"/C/Users/Marius/Dropbox/template/template/Titlepage/titlepage.tex",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/C/Users/Marius/Dropbox/uni/ModernCV/cv_7/cv_7.tex",
+		"/C/Users/Marius/Dropbox/uni/ModernCV/CV Marius/cv_7.tex",
+		"/C/Users/Marius/Dropbox/uni/Hiwi/daniel/Tex/EPJ/template.tex",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/C/Users/Marius/Dropbox/uni/Hiwi/daniel/latex paper/Marius/SB/Large Portfolio/Detecting structural changes in large portfolios.tex",
+		"/C/Users/Marius/Dropbox/template/template/Abstract/abstract.tex",
+		"/C/Users/Marius/Dropbox/uni/ModernCV/cv_9/cv_9.tex",
+		"/C/Users/Marius/Dropbox/uni/ModernCV/cv_15/cv_15.tex",
+		"/C/Users/Marius/Dropbox/uni/ModernCV/cv_14/resume_cv.tex",
+		"/C/Users/Marius/Dropbox/template/template/Chapter3/analysis.tex",
+		"/C/Users/Marius/Dropbox/daten",
+		"/C/Users/Marius/Dropbox/uni/Forschungseminar Finance/Vortrag/header.tex",
+		"/C/Users/Marius/Dropbox/uni/Forschungseminar Finance/Vortrag/kapitel/gleichgewichte.tex",
+		"/C/Users/Marius/Dropbox/MJT/Quotes/great_quotes.txt",
+		"/C/Users/Marius/Dropbox/elhierro.txt",
+		"/C/Users/Marius/Desktop/CALC.lnk",
+		"/C/Users/Marius/Desktop/einkaufen.txt",
+		"/C/Users/Marius/Dropbox/template/template/Chapter1/introduction.tex",
+		"/C/Users/Marius/Dropbox/template/template/Bibliography/references.bib",
+		"/C/Users/Marius/Dropbox/template/template/Chapter2/documentation.tex",
+		"/C/Users/Marius/Dropbox/uni/Forschungseminar Finance/TermPaper/Chapters/analysis.tex",
+		"/C/Users/Marius/Dropbox/uni/Forschungseminar Finance/TermPaper/main.tex",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/Citer.sublime-settings",
+		"/C/Users/Marius/Dropbox/template/template_latex_duke_university_dissertation/Chapter2/guide-notes.tex",
+		"/C/Users/Marius/Dropbox/template/template_latex_duke_university_dissertation/dissertation.tex",
+		"/C/Users/Marius/Dropbox/template/template/Abbreviations/listofabbr.tex",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Marius/Dropbox/template/template_latex_duke_university_dissertation/Abbreviations/listofabbr.tex",
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Marius/Desktop/profile.txsprofile",
+		"/C/Users/Marius/Desktop/subl.bat",
+		"/C/Users/Marius/Dropbox/template/template_latex_duke_university_dissertation/Bibliography/mybib.bib",
+		"/C/Users/Marius/Dropbox/template/template_latex_duke_university_dissertation/dukedissertation.cls",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
+		"/C/Users/Marius/Dropbox/abgehen74.mdown",
+		"/C/Users/Marius/Dropbox/uni/Google Vortrag/google.mdown",
+		"/C/Users/Marius/Dropbox/uni/Forschungseminar Finance/Vortragneu.txt",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/C/Users/Marius/AppData/Roaming/Sublime Text 3/Packages/User/Markdown.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"complete ",
+			"complete",
+			"autocom",
+			"trigger",
+			"auto_com",
+			"    ",
+			"Current Price",
+			"Current",
+			"22",
+			"22.",
+			"22.00g",
+			"\"",
+			"ref",
+			"eqre",
+			"python",
+			"includegra",
+			"\\latex",
+			"akerlof",
+			"verb",
+			"text",
+			"cite",
+			"bibliography",
+			"\\@",
+			"SimSpace",
+			"Simspace",
+			"symbollist",
+			"Simspace",
+			"ctrl+t",
+			"completion"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Marius/Dropbox/gurl.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Marius/Dropbox/uni/MAO/kontakt.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Marius/Dropbox/uni/MAO/Fragen.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Fragen MAO:",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"spell_check": true,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Marius/Desktop/AA theory.mdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								854,
+								854
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Theory: I think a bettor will have a valuation of",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"parser": "markdown",
+							"spell_check": true,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"target": "disk"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 219.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 184.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
